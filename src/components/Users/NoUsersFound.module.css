@@ -1,0 +1,33 @@
+.nousers {
+  height: 20rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nousers p {
+  color: #262c2c;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 1rem;
+  text-decoration: none;
+  background-color: #A5CACB;
+  color: #053352;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #77DEE2;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color:  #CAECED;
+  transition: all .5s ease-out;
+}

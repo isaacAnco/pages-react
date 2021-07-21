@@ -1,0 +1,105 @@
+.cont {
+	padding: 1rem;
+}
+
+.form {
+	position: relative;
+}
+
+.loading {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.group {
+	display: flex;
+	column-gap: 6rem;
+	flex-wrap: wrap;	
+}
+
+.form-control {
+	min-width: 15rem;
+	flex: 1;
+	margin-bottom: .8rem;
+}
+
+.form-control input, 
+.form-control label {
+	display: block;
+	color: #010e18;
+}
+
+.form-control label {
+	font-weight:  bold;
+	margin-bottom: .2rem;
+}
+
+.form-control input {
+	font: inherit;
+	padding: 0.2rem;
+	border-radius: 5px;
+	border: 1px solid #bcd8ee;
+	width: 16rem;
+	max-width: 100%;
+}
+
+.form-control input:focus {
+	transition: all .2s ease-in-out;
+	outline: none;
+	background-color: #DCE3EF;
+	border-color: #bcd8ee;
+}
+
+.btn {
+	text-align: right;
+	padding-right: 1rem;
+}
+
+.btn button {
+	font-size: 1rem;
+	margin: .4rem;
+	padding: .4rem 1.6rem;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: transparent;
+	border: .2px solid #3072F5;
+	color: #010e18;
+}
+
+.btn button:hover,
+.btn button:active {
+	transition: all .2s ease-in-out;
+	background-color: #D4D9E3;
+	border-color: #3072f5;
+}
+
+.btn button:disabled,
+.btn button:disabled:hover,
+.btn button:disabled:active {
+	background-color: #ccc;
+	color: #292929;
+	border-color: #ccc;
+	cursor: not-allowed;
+}
+
+.invalid label {
+	color: #ca3e51;
+}
+
+.invalid input,
+.invalid input:focus {
+	border-color: #ca3e51;
+	background-color: #FA9D9D ;
+}
+
+.error {
+	color: #ca3e51;
+	padding-top: .4rem;
+}
+
+
